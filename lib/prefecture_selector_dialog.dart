@@ -24,8 +24,10 @@ class PrefectureSelectorDialog extends StatefulWidget {
   /// The decoration for each selection cell
   final BoxDecoration cellDecoration;
 
+  /// The hint text that should be shown in the search bar
   final String hintText;
 
+  /// The text style for all text
   final TextStyle textStyle;
 
   /// This fucntion use [showDialog] to show the [PrefectureSelectorDialog]
